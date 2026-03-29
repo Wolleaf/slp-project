@@ -2,6 +2,53 @@
 
 ---
 
+## 项目文件结构
+
+```
+Project/
+├── archive/                        # ASVspoof 2019 数据集
+│   └── LA/LA/
+│       ├── ASVspoof2019_LA_train/flac/    # 训练音频（25,380 条）
+│       ├── ASVspoof2019_LA_dev/flac/      # 验证音频（24,844 条）
+│       ├── ASVspoof2019_LA_eval/flac/     # 测试音频（71,933 条）
+│       └── ASVspoof2019_LA_cm_protocols/  # 标签协议文件
+├── src/
+│   ├── config.py          # 全局配置（超参数、路径）
+│   ├── config_cloud.py    # 云服务器 5090 专用配置
+│   ├── utils.py           # 工具函数（EER、早停、检查点）
+│   ├── dataset.py         # 数据集加载、增强、退化处理
+│   ├── models.py          # 三个模型定义 + 渐进式解冻
+│   ├── evaluate.py        # 评估函数 + DET/EER 图表绘制
+│   ├── train_model1.py    # 模型1 训练脚本（本地跑通用）
+│   ├── train_model2.py    # 模型2 训练脚本
+│   ├── train_model3.py    # 模型3 训练脚本
+│   ├── run_ablation.py    # 消融实验评估（加载三模型，生成图表）
+│   └── run_all.py         # 主入口（依次训练+评估）
+├── checkpoints/           # 模型权重保存目录
+│   ├── model1_baseline.pth
+│   ├── model2_frozen_ssl.pth
+│   └── model3_finetuned_aug.pth
+├── figures/               # 实验图表输出目录
+│   ├── training_model1.png
+│   ├── training_model2.png
+│   ├── training_model3.png
+│   ├── det_curve_clean.png
+│   ├── det_curve_degraded.png
+│   └── eer_comparison.png
+├── results/               # 实验数据输出目录
+│   ├── train_model1.log
+│   ├── train_model2.log
+│   ├── train_model3.log
+│   ├── ablation_results.json
+│   └── ablation_results_full.npz
+├── run_cloud.sh           # 云服务器一键运行脚本
+├── README.md              # 项目说明
+├── experiment.md          # 实验详细流程文档
+├── flow.md                # 实验流程记录
+├── paper.md               # 论文概括引用
+└── learn.md               # 学习笔记
+```
+
 ## 一、 项目定义
 
 ### 1.1 什么是“语言真伪处理”
