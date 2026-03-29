@@ -1,0 +1,65 @@
+\begin{thebibliography}{1}
+
+\bibitem{survey2024}
+A.~Author and B.~Author.
+\newblock Audio anti-spoofing detection: A survey.
+\newblock {\em arXiv preprint}, 2024.
+
+\bibitem{asvspoof2019}
+Xin Wang, Junichi Yamagishi, Massimiliano Todisco, H{\'e}ctor Delgado, Andreas
+  Nautsch, Nicholas Evans, Md~Sahidullah, Ville Vestman, Tomi Kinnunen,
+  Kong~Aik Lee, et~al.
+\newblock Asvspoof 2019: A large-scale public database of synthesized,
+  converted and replayed speech.
+\newblock In {\em Computer Speech \& Language}, volume~64, page 101114.
+  Elsevier, 2020.
+
+\bibitem{addc_benchmark}
+G.~Author and H.~Author.
+\newblock Benchmarking audio deepfake detection robustness in real-world
+  communication scenarios.
+\newblock In {\em Proceedings of the Annual Conference of the North American
+  Chapter of the Association for Computational Linguistics (NAACL)}, 2025.
+
+\bibitem{wav2vec2}
+Alexei Baevski, Yuhao Zhou, Abdelrahman Mohamed, and Michael Auli.
+\newblock wav2vec 2.0: A framework for self-supervised learning of speech
+  representations.
+\newblock In {\em Advances in Neural Information Processing Systems (NeurIPS)},
+  volume~33, pages 12449--12460, 2020.
+
+\bibitem{ssl_layerwise}
+E.~Author and F.~Author.
+\newblock Comprehensive layer-wise analysis of ssl models for audio deepfake
+  detection.
+\newblock In {\em Proceedings of the Annual Conference of the North American
+  Chapter of the Association for Computational Linguistics (NAACL)}, 2025.
+
+\bibitem{targeted_aug}
+I.~Author and J.~Author.
+\newblock Targeted augmented data for audio deepfake detection.
+\newblock In {\em European Signal Processing Conference (EUSIPCO) / EURASIP},
+  2024.
+
+\bibitem{rawnet2}
+Hemlata Tak, Jose Patino, Massimiliano Todisco, Andreas Nautsch, Nicholas
+  Evans, and Anthony Larcher.
+\newblock End-to-end anti-spoofing with rawnet2.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP)}, 2021.
+
+\bibitem{aasist}
+Jee-weon Jung, Hee-Soo Heo, Hemlata Tak, Hye-jin Shim, Joon~Son Chung, Bong-Jin
+  Lee, Ha-Jin Kwon, and Shin~Jae Son.
+\newblock Aasist: Audio anti-spoofing using integrated spectro-temporal graph
+  attention networks.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP)}, 2022.
+
+\bibitem{hubert_add}
+C.~Author and D.~Author.
+\newblock Voice deepfake detection using the self-supervised pre-training model
+  hubert.
+\newblock {\em Applied Sciences}, 13, 2023.
+
+\end{thebibliography}

@@ -1,0 +1,50 @@
+{
+  "Model3_FineTuned__Clean": {
+    "eer": 0.02679978280825427,
+    "eer_percent": 2.679978280825427,
+    "threshold": 0.0,
+    "n_samples": 71237,
+    "n_bonafide": 7355,
+    "n_spoof": 63882
+  },
+  "Model3_FineTuned__Degraded": {
+    "eer": 0.24324845322073788,
+    "eer_percent": 24.324845322073788,
+    "threshold": 0.0,
+    "n_samples": 71237,
+    "n_bonafide": 7355,
+    "n_spoof": 63882
+  },
+  "Model1_Baseline__Clean": {
+    "eer": 0.10132519677308673,
+    "eer_percent": 10.132519677308673,
+    "threshold": 0.0,
+    "n_samples": 71237,
+    "n_bonafide": 7355,
+    "n_spoof": 63882
+  },
+  "Model1_Baseline__Degraded": {
+    "eer": 0.5453306169041148,
+    "eer_percent": 54.53306169041148,
+    "threshold": 0.0,
+    "n_samples": 71237,
+    "n_bonafide": 7355,
+    "n_spoof": 63882
+  },
+  "Model2_FrozenSSL__Clean": {
+    "eer": 0.1365193805344409,
+    "eer_percent": 13.651938053444091,
+    "threshold": 0.0,
+    "n_samples": 71237,
+    "n_bonafide": 7355,
+    "n_spoof": 63882
+  },
+  "Model2_FrozenSSL__Degraded": {
+    "eer": 0.35962556388221817,
+    "eer_percent": 35.96255638822182,
+    "threshold": 0.0,
+    "n_samples": 71237,
+    "n_bonafide": 7355,
+    "n_spoof": 63882
+  }
+}
