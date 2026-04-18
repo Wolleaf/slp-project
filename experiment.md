@@ -13,7 +13,7 @@
 
 实验采用 **「3 个模型 × 2 个测试环境」** 的交叉对比设计，共产出 **6 组 EER 数据**，形成完整的论证链：
 
-![5019c349-3c4a-4423-99d4-85e37925403c](D:\Admin\Documents\港中深学习\SecondTerm\Spoken Language Processing\Project\experiment.assets\5019c349-3c4a-4423-99d4-85e37925403c.png)
+![5019c349-3c4a-4423-99d4-85e37925403c](experiment.assets/5019c349-3c4a-4423-99d4-85e37925403c.png)
 
 ### 1.3 核心评价指标
 
