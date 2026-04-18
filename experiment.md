@@ -864,4 +864,4 @@ plot_eer_comparison(results, "figures/eer_comparison.png")
 
 ## 附录 A：完整实验流程速览
 
-![img](D:\Admin\Documents\港中深学习\SecondTerm\Spoken Language Processing\Project\experiment.assets\1774668452737-1.png)
+![img](experiment.assets/1774668452737-1.png)
